@@ -1,5 +1,5 @@
 ---
-layout: Post
+layout: post
 title: First Blog Post - Coding
 ---
 While I am waiting to see if my first blog post uploads (in the tutorial it
@@ -16,8 +16,7 @@ length of the shapes, etc.  So I feel pretty comfortable with the basic p5.
 Now that I missed a week I am unsure about everything else.  The thing that is
 frustrating me most at the moment is trying to get my blog to post.  I finally
 got atom synced to my github, I am saving and syncing, but it is not showing up
-on my blog.  As [Todd’s]
-(tbreijak.github.io/blog/2016-01-25/Coding%20Is%20Hard.html)
+on my blog.  As [Todd’s](http://tbreijak.github.io/blog/2016-01-25/Coding%20Is%20Hard.html)
 title suggests, “Coding is Hard”.  I have zero experience with this, but
 hopefully after tomorrow I will feel a little more comfortable again.  
 
