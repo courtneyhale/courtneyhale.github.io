@@ -7,8 +7,7 @@ alphabet of the Western world and compares it to other writings, past and presen
 use “pictorial expression to oral meanings” (87).  McLuhan explains, “There have been many
 kinds of writing, pictographic and syllabic, but there is only one phonetic alphabet in
 which semantically meaningless letters are used to correspond to semantically meaningless
-sounds” (83).  This allows McLuhan to argue, as [Todd]
-(http://tbreijak.github.io/blog/2016-01-27/Some%20Thoughts%20on%20The%20Written%20Word.html)
+sounds” (83).  This allows McLuhan to argue, as [Todd] (http://tbreijak.github.io/blog/2016-01-27/Some%20Thoughts%20on%20The%20Written%20Word.html).
 explains in his post, that the alphabet started “civilizing” humanity.
 
 The alphabet does cause a disconnect form the other senses though.  There are certain
