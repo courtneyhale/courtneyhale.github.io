@@ -1,7 +1,7 @@
 ---
 layout: Post
 title: First Blog Post - Coding
-
+---
 While I am waiting to see if my first blog post uploads (in the tutorial it
 said it could take a few minutes), I decided to explain my experience with
 coding so far.  I was unable to come to class last week because of the stomach
