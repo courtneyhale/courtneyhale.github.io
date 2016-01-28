@@ -1,6 +1,7 @@
 ########################### EDIT YOUR SETTINGS HERE
 # Site settings
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: Courtney Hale's ENG7006 Blog
 email: courtneyhale44@gmail.com # put your email address in here; optional
 # edit your site description; keep it brief
@@ -12,6 +13,11 @@ github_username: courtneyhale # replace with your github username
 title: "Brume" # give your site a title
 email: "you@example.com" # put your email address in here; optional
 # edit your site description; keep it brief
+=======
+title: "Brume" # give your site a title
+email: "you@example.com" # put your email address in here; optional
+# edit your site description; keep it brief
+>>>>>>> ENG7006/master
 description: "Brume is simple. It's easy to use. It's a Jekyll theme."
 url: http://[username].github.io # replace [username] with your github username (no brackets)
 github_username: github_username # replace with your github username
