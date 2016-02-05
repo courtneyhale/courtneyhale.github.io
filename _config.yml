@@ -1,27 +1,12 @@
 ########################### EDIT YOUR SETTINGS HERE
 # Site settings
-<<<<<<< HEAD
-<<<<<<< HEAD
 title: Courtney Hale's ENG7006 Blog
 email: courtneyhale44@gmail.com # put your email address in here; optional
 # edit your site description; keep it brief
-description: This is my blog for ENG7006 
+description: This is my blog for ENG7006
 baseurl:  # the subpath of your site, e.g. /blog/; if unsure, leave this blank
 url: http://courtneyhale.github.io # replace [username] with your github username (no brackets)
 github_username: courtneyhale # replace with your github username
-=======
-title: "Brume" # give your site a title
-email: "you@example.com" # put your email address in here; optional
-# edit your site description; keep it brief
-=======
-title: "Brume" # give your site a title
-email: "you@example.com" # put your email address in here; optional
-# edit your site description; keep it brief
->>>>>>> ENG7006/master
-description: "Brume is simple. It's easy to use. It's a Jekyll theme."
-url: http://[username].github.io # replace [username] with your github username (no brackets)
-github_username: github_username # replace with your github username
->>>>>>> ENG7006/master
 
 ########################## DO NOT EDIT BELOW HERE UNLESS YOU'RE STOKED TO HACK
 # build settings
