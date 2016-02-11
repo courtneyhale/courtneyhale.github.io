@@ -12,7 +12,7 @@ github_username: courtneyhale # replace with your github username
 # build settings
 markdown: kramdown
 # highlighter: rouge # for local testing
-highlighter: pygments # for deployment to github pages
+highlighter: rouge
 permalink:  /blog/:year-:month-:day/:title.html
 kramdown:
   input: GFM
