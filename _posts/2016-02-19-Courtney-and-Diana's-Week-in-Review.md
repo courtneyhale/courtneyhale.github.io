@@ -2,7 +2,6 @@
 title: Courtney and Diana's Week in Review - Manovich and Hodge
 layout: post
 description: "When Old Media Are Become New"
-categories: none
 ---
 Class last Thursday was focused on the following questions:
 
