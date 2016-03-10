@@ -1,0 +1,11 @@
+---
+layout: post
+title: Phatic Communication
+---
+Like [Noah]( http://noahmcmlln.github.io/blog/2016-03-09/mountain-and-humanity.html), I really enjoyed Hodge’s article.  His work with phatic communication with digital network is really interesting.  I do wish he didn’t wait until page 6 to explain phatic communication, but other than that, I really enjoyed this article.  I had to keep my underlining under control while reading it.  
+
+When Hodge described the phantom cell phone vibrations compared to a phantom limb, it made me think of McLuhan explaining that technology is an extension of ourselves. What really caught my attention though, was Hodge using contradictory terms to describe our constant network connectivity.  On page two Hodge explains that we are always “active” with technology (checking e-mail, tweeting, etc.), yet while we are doing these things we are physically inactive.  Also, Hodge discusses the “impersonal and social” or “impersonally social” connecting we have to the media culture and later states this is a phatic communication (6).   While phatic communication in itself is impersonal, adding it to a media culture takes the impersonal to a whole other level.  On Facebook we “share” or “like” something because it is quick and easy, and makes us feel like we are making a difference.  We might “share” a fundraiser, but not donate or volunteer our time.  People record horrific acts, instead of stepping in to help.  Instead of calling someone or sending them a card to wish them a happy birthday, Facebook reminds people of their “friends” birthday and they just have to click a button and type the words “Happy Birthday”.  
+
+Our need to be constantly connected impacts our lives as well. We are annoyed by the constant buzzing of our phones, but also it is appealing (5). Hodge states, “While social affiliation is often taken to be an expression of the subject’s individuality, the generally impersonal pleasures of digital connection invite us to consider the ambient and diffuse promises of being otherwise governing the pleasures of connection” (4). We are allowing our technology relationship impact our personal relationship.  
+
+I know we are focusing on games this week and I didn’t really mention any games in my blog post, but the points that Hodge brought up in the beginning of his article really interested me.  
