@@ -1,5 +1,5 @@
 --
-layout: Post
+layout: post
 title: Yay Partners!
 --
 My goal is to have the rest of my blog posts up before 10 o’clock the night before for the rest of the semester! My procrastination with these blog posts is really hurting me.  On a more positive note, I am all caught up with my dailies, and even fixed some I realized I didn’t do to the full specifications on!  
