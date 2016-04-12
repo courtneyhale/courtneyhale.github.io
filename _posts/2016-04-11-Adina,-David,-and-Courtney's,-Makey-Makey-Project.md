@@ -16,7 +16,7 @@ layout: Post
 
 1. We decided to focus on only one disability in particular.  For this we have selected cerebral palsy.  
 2. Question: Can we use the Makey Makey to break an interface in such a way that a person who does not have cerebral palsy can attain some understanding of how traditional user interfaces are unusable for people lacking certain motor skills?
-3. Inspiration: a ["typewriter" artist:](https://www.youtube.com/watch?v=svzPm8lT36o) Paul Smith (since deceased) had cerebral palsy.  [Here is another website on him and his work](http://www.cerebralpalsy.org/inspiration/artists/paul-smith)
+3. Inspiration: a ["typewriter" artist,](https://www.youtube.com/watch?v=svzPm8lT36o) Paul Smith (since deceased) had cerebral palsy.  [Here is another website on him and his work](http://www.cerebralpalsy.org/inspiration/artists/paul-smith).
 4. Finally, can we create an application (something very simple in P5) that would act as a kind of artistic typewriter whose interface and controls facilitated by Makey Makey would be usable by people lacking certain motor skills.
 
 **Goals:**
