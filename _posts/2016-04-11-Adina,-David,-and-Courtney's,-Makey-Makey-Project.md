@@ -22,32 +22,55 @@ layout: Post
 **Goals:**
 
 **1. Use the Makey Makey to create an interface to allow users with cerebral palsy (referred to as UserA) to create art using technology in a more accessible way than is currently available.** 
+
 	While using the Makey Makey, we want UserA to engage with the technology in its limited format. The limited format of this technology enhances UserA’s ability to engage with the technology itself. We want UserA to be able to feel a sense of accomplishment and a discovery of new possibilities to engage with technology in a way that they were unable to previously. Finally, we want UserA to recognize that technology is more adaptable and capable of meeting their needs than the market that is producing them would have us believe. Through the example of the Makey Makey, we want to show users that there is technology already available that is inexpensive, easy to use, and highly adaptable.  We want to show users this inexpensive technology can be used to create assistive technology that is adaptable to numerous users with a variety of disorders across the spectrum.  We want UserA to create art using the interface (Addendum A) and to realize technology can be accessible for them.  
+	
 **2. We want a user who does not have cerebral palsy (referred to as UserB) to use a broken interface to attain some understanding of how traditional user interfaces are unusable for people lacking certain motor skills.**
+
 	We want UserB to engage with a “broken” interface (Addendum B) with the intent of creating a simple image on the screen (for our demo, we want them to create an arrow).  Through this, we want UserB to be able to feel the same frustration that a person with cerebral palsy might experience while attempting to create the same image using current mass produced interfaces.  The “broken” interface gives UserB added challenges that moves the mouse to a random part of the screen at a random moment.  This causes a “jerking” motion, which simulates what one might feel when they have cerebral palsy.  We want to raise awareness, and to have UserB think about the need for assistive technologies as well as solutions that meet that need.  We want UserB to understand how traditional user interfaces are not as easily accessible to everyone, and the frustrations that come with that.  
+	
 **3. To get all users to see the lack of availability in assistive technology as a problem in today’s market and to further promote imaginative designs to solve the issue.**  
+
 	We want all users to become aware of the issue of limited assistive technologies, and we want users to promote awareness among others.  We want users to expect the creators of new technologies to not be limited in the mass production of the same product that only addresses one specific demographic, but expect them to develop similar technologies that are usable by those with various disabilities across all spectrums. We want the users to actively think about solutions to the limitations of technology and the need for them.  We also want to raise awareness to not only the “one size fits all” assistive technology rationale, but also the “profit” aspect of it, because a lot of assistive technology is expensive and not easily adaptable.  We want users to understand the current model of assistive technology is not as effective as it could be, and that there are other solutions out there.  
 
 **Specifications:**
+
 Obtain Makey Makey
+
 Obtain Play-Doh
+
 Arrange Play-Doh to have these five controls: 
+
 Attach the USB cord from the Makey Makey to your laptop and the Makey Makey itself
+
 Grab a conductive bracelet, or make it conductive by wrapping it in aluminum foil 
+
 Attach an alligator clip to the bracelet and the other end of the alligator clip to Earth on the Makey Makey
+
 Take 4 connector wires and add one end of each to W,A,S, and D on the back of the Makey Makey
+
 Using four alligator clips, clip them to the end of the four connector wires
+
 Take the W connector wire and attach the alligator clip to the up Play-Doh arrow
+
 Take the A connector wire and attach the alligator clip to the left Play-Doh arrow
+
 Take the S connector wire and attach the alligator clip to the down Play-Doh arrow
+
 Take the D connector wire and attach the alligator clip to the right Play-Doh arrow
+
 Take a new alligator clip and clip it to the “Click” holes on the back of the Makey Makey and attach the other end of the clip to the center Play-Doh button
+
 Open p5 and paste the attached code (see Addendum A) into the p5 editor
+
 Put on the bracelet and move the keyed up ball around the screen 
+
 Move to the starting point and create an image of an arrow one click at a time across the canvas. 
+
 Open a new p5 document and paste the attached code from Addendum B into the p5 editor and attempt to create another image of an arrow
 
 **Rationale:** 
+
 	During our research for this project we came across a [Ted Talk](http://makezine.com/2016/02/19/this-is-the-easiest-way-build-accessibility-tech-kids-disabilities/) that inspired us to raise awareness involving the limitations of technology for individuals with disabilities across various spectrums.  We feel that a user without these disabilities would not face these limitations and therefore not realize the need for solutions or alternative technology. Because we were speaking to two different types of users (UserA and UserB) we wanted to create two different experiences using the same interface.  The disability that we wanted to raise awareness for was Cerebral Palsy because of the artist Paul Smith.  Paul is an artist who uses a typewriter to create works of art only using 9 keys. The two links we used for research regarding Paul are: [A Tribute to the typewriter artist]( http://www.cerebralpalsy.org/inspiration/artists/paul-smith) and [Typewriter Artist](https://www.youtube.com/watch?v=svzPm8lT36o). Between the two YouTube videos we brainstormed and came up with the two experiences we wanted the users to have.  
 	The first experience, which we will call code 1, asks users create a basic image using the mouse (which controls the target ball) and its clicking feature. Each click places a yellow dot on the screen. For our demonstration, the user was asked to move the target ball around to create the image of an arrow.  What the user is not told about in advance is that after a random interval between 3 and 7 seconds, the target ball will move to a random location on the canvas.  This forces the user to move the mouse towards the target ball’s new location in order to regain control over it, and then move it back to the original desired position to continue the task of drawing an arrow.   The user would have been easily able to do this without this added challenge. We added this challenge because we want the user to understand and feel the frustration that a user with cerebral palsy would have using the same interface due to their lack of fine motor coordination.
 	Once that task is complete the user starts their second experience by opening code 2.  In code 2, a similar target ball is their cursor and the clicking feature also places a small yellow dot on the canvas. This time, however, the target ball is controlled not by the mouse but rather by the W, A, S, D keys, and the target ball does not move to a new location randomly. We hooked up these 5 action keys on our laptop to the makey makey (the WASD and “click”), and then plugged the makey makey into the Play-Doh controls described under the Specifications section. The user should be able to move the target ball around and is once again asked to create a simple drawing. This second experience is meant to demonstrate to all users how alternative solutions to the previously frustrating scenario are necessary for people with disabilities and not only possible, but can be made far more cheaply than what is currently available. Also, instead of being mass produced with the “one size fits all” mentality, they can be made more simply and flexibly in order to cater to disabled individuals who vary along a wide spectrum. 
