@@ -143,8 +143,10 @@ ArtDraw.prototype = {
   initialize: function () {
     createCanvas(windowWidth, windowHeight);
 
+
     this.drawBall =  new KeyedUpBall(width / 2, height / 2);
     this.drawBall.initialize();
+
 
     this.marks = new DrawingMarks();
   },
@@ -160,6 +162,7 @@ ArtDraw.prototype = {
 
   display: function () {
     background('#00BFFF');
+
 
     this.marks.display();
     this.drawBall.display();
@@ -249,6 +252,7 @@ KeyedUpBall.prototype = {
     noStroke();
     fill(131, 126, 126, 100);
     ellipse(this.position.x, this.position.y, this.radius * 2, this.radius * 2);
+
 
     stroke(0);
     line(this.position.x -5, this.position.y, this.position.x -75, this.position.y);
@@ -415,6 +419,7 @@ KeyedUpBall.prototype = {
     fill(131, 126, 126, 100);
     ellipse(this.position.x, this.position.y, this.radius * 2, this.radius * 2);
 
+
     stroke(0);
     line(this.position.x -5, this.position.y, this.position.x -75, this.position.y);
     line(this.position.x +5, this.position.y, this.position.x +75, this.position.y);
@@ -438,7 +443,9 @@ KeyedUpBall.prototype = {
   mouseMove: function() {
       if (this.trackMouse == 0 && !this.detectMouseCatchUp()) return;
 
+
       if (this.trackMouse == 0) this.startRandomTimer();
+
 
       this.position.x = mouseX;
       this.position.y = mouseY;
@@ -450,6 +457,7 @@ KeyedUpBall.prototype = {
     this.listen();
     this.move();
     this.mouseMove();
+
 
     if (this.randomTimer.secondsElapsed() > this.randomDuration) {
       this.randomMovement();
