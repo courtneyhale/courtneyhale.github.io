@@ -9,7 +9,6 @@ layout: post
 
 [Original Makey Makey KickStarter campaign](https://www.kickstarter.com/projects/joylabz/makey-makey-an-invention-kit-for-everyone/description),
 [Assistive Technology: What It Is and How It Works](https://www.understood.org/en/school-learning/assistive-technology/assistive-technologies-basics/assistive-technology-what-it-is-and-how-it-works),
-[Speculative Everything](https://slack-files.com/files-pri-safe/T0EUTAFBK-F0UJP679A/dunne_and_raby_-_from_speculative_everything.pdf?c=1460420735-33e8ebd3f4641e28ba60a48422901fc6bd91f2cc),
 [This Is the Easiest Way to Build Accessibility Tech for Kids with Disabilities](http://makezine.com/2016/02/19/this-is-the-easiest-way-build-accessibility-tech-kids-disabilities/)
 
 **Assistive Technology Makey Makey**
@@ -87,6 +86,7 @@ While creating this project, we experienced everything we wanted our users to ex
 
 **index.html:**
 
+```
 <!DOCTYPE html>
 <html>
   <head>
@@ -115,9 +115,11 @@ While creating this project, we experienced everything we wanted our users to ex
   <body>
   </body>
 </html>
+```
 
 **Sketch.js:**
 
+```
 var myDrawing = new ArtDraw();
 
 setup = function () {
@@ -132,9 +134,11 @@ draw = function() {
 mouseClicked = function () {
   myDrawing.createSpot();
 };
+```
 
 **ArtDraw.js:**
 
+```
 // constructor function
 var ArtDraw = function () {
 };
@@ -143,10 +147,8 @@ ArtDraw.prototype = {
   initialize: function () {
     createCanvas(windowWidth, windowHeight);
 
-
     this.drawBall =  new KeyedUpBall(width / 2, height / 2);
     this.drawBall.initialize();
-
 
     this.marks = new DrawingMarks();
   },
@@ -163,14 +165,15 @@ ArtDraw.prototype = {
   display: function () {
     background('#00BFFF');
 
-
     this.marks.display();
     this.drawBall.display();
   }
 };
+```
 
 **DrawingMark.js:**
 
+```
 var DrawingMark = function(x, y) {
   this.position = new p5.Vector(x, y);
 };
@@ -191,8 +194,10 @@ DrawingMark.prototype = {
   }
 
 };
+```
 
-DrawingMarks.js:
+**DrawingMarks.js:**
+```
 
 var DrawingMarks = function () {
   this.marks = [];
@@ -218,9 +223,11 @@ DrawingMarks.prototype = {
   },
 
 };
+```
 
 **KeyUpBall.js:**
 
+```
 // constructor: takes a starting x and y position.
 var KeyedUpBall = function(x, y) {
   this.position = new p5.Vector(x, y);
@@ -252,7 +259,6 @@ KeyedUpBall.prototype = {
     noStroke();
     fill(131, 126, 126, 100);
     ellipse(this.position.x, this.position.y, this.radius * 2, this.radius * 2);
-
 
     stroke(0);
     line(this.position.x -5, this.position.y, this.position.x -75, this.position.y);
@@ -327,9 +333,11 @@ KeyedUpBall.prototype = {
   }
 
 };
+```
 
 **KeyListener.js:**
 
+```
 var KeyListener = function(key, _function, listenOn) {
   this.keyToListen = key.charCodeAt(0);
   console.log("Created listener on " + key + ", code: " + this.keyToListen);
@@ -377,13 +385,15 @@ var keyListenerMap = {
   backspace: String.fromCharCode(8),
 
 };
+```
 
-**Addendum B:**
+**Addendum B:** 
 
 In creating the “broken” version of the ArtDraw application we introduced a Timer mechanism and modified only the KeyedUpBall.js functionality, which handles the random movement of the pointer and the coordination of the mouse back to the pointer.
 
 **KeyedUpBall.js:**
 
+```
 // constructor: takes a starting x and y position.
 var KeyedUpBall = function(x, y) {
   this.position = new p5.Vector(x, y);
@@ -419,7 +429,6 @@ KeyedUpBall.prototype = {
     fill(131, 126, 126, 100);
     ellipse(this.position.x, this.position.y, this.radius * 2, this.radius * 2);
 
-
     stroke(0);
     line(this.position.x -5, this.position.y, this.position.x -75, this.position.y);
     line(this.position.x +5, this.position.y, this.position.x +75, this.position.y);
@@ -443,9 +452,7 @@ KeyedUpBall.prototype = {
   mouseMove: function() {
       if (this.trackMouse == 0 && !this.detectMouseCatchUp()) return;
 
-
       if (this.trackMouse == 0) this.startRandomTimer();
-
 
       this.position.x = mouseX;
       this.position.y = mouseY;
@@ -457,7 +464,6 @@ KeyedUpBall.prototype = {
     this.listen();
     this.move();
     this.mouseMove();
-
 
     if (this.randomTimer.secondsElapsed() > this.randomDuration) {
       this.randomMovement();
@@ -534,9 +540,11 @@ KeyedUpBall.prototype = {
   }
 
 };
+```
 
 **Timer.js:**
 
+```
 var Timer = function () {
   this.initialize();
 };
@@ -564,47 +572,3 @@ Timer.prototype = {
 
   // pause() stops the timer at the current value
   pause: function() {
-    this.running = false;
-  },
-
-  // unpause() resumes counting from the previously paused value
-  unpause: function() {
-    var elapsedSoFar = this.millisecondsElapsed();
-    this.initialize();
-    this.running = true;
-    var newInit = new Date(this.now - elapsedSoFar);
-    this.init = newInit.getTime();
-  },
-
-  // update() is only called internally; it effectively makes current the internal representation of time
-  update: function() {
-    if (this.running) this.now = Date.now();
-  },
-
-  // millisecondsElapsed() tells you how many millisconds have elapsed since the timer was last initialize()ed
-  millisecondsElapsed: function() {
-    this.update();
-    return this.now - this.init;
-  },
-
-  // secondsElapsed() converts milliseconds elapsed to seconds elapsed
-  secondsElapsed: function() {
-    return Math.floor(this.millisecondsElapsed() / 1000);
-  },
-
-  // minutesElapsed() converts seconds elapsed to minutes elapsed
-  minutesElapsed: function() {
-    return Math.floor(this.secondsElapsed() / 60);
-  },
-
-  // getPrettyElapsedTime() returns the time elapsed since initialization in mm:ss format, as a string
-  getPrettyElapsedTime: function() {
-    return this.minutesElapsed() + this.getPrettySeconds();
-  },
-
-  // getPrettySeconds() calculates the seconds elapsed in a given minute, with a leading zero if necessary, as a string
-  getPrettySeconds: function() {
-    var secondCounter = this.secondsElapsed() % 60; // % is the modulo operator
-    if (secondCounter < 10) secondCounter = "0" + secondCounter;
-    return ":" + secondCounter;
-  }
