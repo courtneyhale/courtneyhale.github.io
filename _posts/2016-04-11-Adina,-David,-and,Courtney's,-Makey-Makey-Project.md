@@ -198,7 +198,7 @@ DrawingMark.prototype = {
 
 **DrawingMarks.js:**
 
-'''
+```
 var DrawingMarks = function () {
   this.marks = [];
 };
@@ -573,4 +573,4 @@ Timer.prototype = {
   // pause() stops the timer at the current value
   pause: function() {
 
-'''
+```
