@@ -35,39 +35,39 @@ We want all users to become aware of the issue of limited assistive technologies
 
 **Specifications:**
 
-Obtain Makey Makey
+1. Obtain Makey Makey
 
-Obtain Play-Doh
+2. Obtain Play-Doh
 
-Arrange Play-Doh to have these five controls:
+3. Arrange Play-Doh to have these five controls:
 
-Attach the USB cord from the Makey Makey to your laptop and the Makey Makey itself
+4. Attach the USB cord from the Makey Makey to your laptop and the Makey Makey itself
 
-Grab a conductive bracelet, or make it conductive by wrapping it in aluminum foil
+5. Grab a conductive bracelet, or make it conductive by wrapping it in aluminum foil
 
-Attach an alligator clip to the bracelet and the other end of the alligator clip to Earth on the Makey Makey
+6. Attach an alligator clip to the bracelet and the other end of the alligator clip to Earth on the Makey Makey
 
-Take 4 connector wires and add one end of each to W,A,S, and D on the back of the Makey Makey
+7. Take 4 connector wires and add one end of each to W,A,S, and D on the back of the Makey Makey
 
-Using four alligator clips, clip them to the end of the four connector wires
+8. Using four alligator clips, clip them to the end of the four connector wires
 
-Take the W connector wire and attach the alligator clip to the up Play-Doh arrow
+9. Take the W connector wire and attach the alligator clip to the up Play-Doh arrow
 
-Take the A connector wire and attach the alligator clip to the left Play-Doh arrow
+10. Take the A connector wire and attach the alligator clip to the left Play-Doh arrow
 
-Take the S connector wire and attach the alligator clip to the down Play-Doh arrow
+11. Take the S connector wire and attach the alligator clip to the down Play-Doh arrow
 
-Take the D connector wire and attach the alligator clip to the right Play-Doh arrow
+12. Take the D connector wire and attach the alligator clip to the right Play-Doh arrow
 
-Take a new alligator clip and clip it to the “Click” holes on the back of the Makey Makey and attach the other end of the clip to the center Play-Doh button
+13. Take a new alligator clip and clip it to the “Click” holes on the back of the Makey Makey and attach the other end of the clip to the center Play-Doh button
 
-Open p5 and paste the attached code (see Addendum A) into the p5 editor
+14. Open p5 and paste the attached code (see Addendum A) into the p5 editor
 
-Put on the bracelet and move the keyed up ball around the screen
+15. Put on the bracelet and move the keyed up ball around the screen
 
-Move to the starting point and create an image of an arrow one click at a time across the canvas.
+16. Move to the starting point and create an image of an arrow one click at a time across the canvas.
 
-Open a new p5 document and paste the attached code from Addendum B into the p5 editor and attempt to create another image of an arrow
+17. Open a new p5 document and paste the attached code from Addendum B into the p5 editor and attempt to create another image of an arrow
 
 **Rationale:**
 
