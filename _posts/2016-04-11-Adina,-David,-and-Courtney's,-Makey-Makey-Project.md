@@ -7,16 +7,16 @@ layout: Post
 
 **Some Resources:**
 
-[Original Makey Makey KickStarter campaign](https://www.kickstarter.com/projects/joylabz/makey-makey-an-invention-kit-for-everyone/description)
-[Assistive Technology: What It Is and How It Works](https://www.understood.org/en/school-learning/assistive-technology/assistive-technologies-basics/assistive-technology-what-it-is-and-how-it-works)
-[Speculative Everything](https://slack-files.com/files-pri-safe/T0EUTAFBK-F0UJP679A/dunne_and_raby_-_from_speculative_everything.pdf?c=1460420735-33e8ebd3f4641e28ba60a48422901fc6bd91f2cc)
-[This Is the Easiest Way to Build Accessibility Tech for Kids with Disabilities]([http://makezine.com/2016/02/19/this-is-the-easiest-way-build-accessibility-tech-kids-disabilities/)
+[Original Makey Makey KickStarter campaign](https://www.kickstarter.com/projects/joylabz/makey-makey-an-invention-kit-for-everyone/description),
+[Assistive Technology: What It Is and How It Works](https://www.understood.org/en/school-learning/assistive-technology/assistive-technologies-basics/assistive-technology-what-it-is-and-how-it-works),
+[Speculative Everything](https://slack-files.com/files-pri-safe/T0EUTAFBK-F0UJP679A/dunne_and_raby_-_from_speculative_everything.pdf?c=1460420735-33e8ebd3f4641e28ba60a48422901fc6bd91f2cc),
+[This Is the Easiest Way to Build Accessibility Tech for Kids with Disabilities](http://makezine.com/2016/02/19/this-is-the-easiest-way-build-accessibility-tech-kids-disabilities/)
 
 **Assistive Technology Makey Makey**
 
 1. We decided to focus on only one disability in particular.  For this we have selected cerebral palsy.  
 2. Question: Can we use the Makey Makey to break an interface in such a way that a person who does not have cerebral palsy can attain some understanding of how traditional user interfaces are unusable for people lacking certain motor skills?
-3. Inspiration: a ["typewriter" artist:](https://www.youtube.com/watch?v=svzPm8lT36o). Paul Smith (since deceased) had cerebral palsy.  [Here is another website on him and his work:](http://www.cerebralpalsy.org/inspiration/artists/paul-smith)
+3. Inspiration: a ["typewriter" artist:](https://www.youtube.com/watch?v=svzPm8lT36o). Paul Smith (since deceased) had cerebral palsy.  [Here is another website on him and his work](http://www.cerebralpalsy.org/inspiration/artists/paul-smith)
 4. Finally, can we create an application (something very simple in P5) that would act as a kind of artistic typewriter whose interface and controls facilitated by Makey Makey would be usable by people lacking certain motor skills.
 
 **Goals:**
