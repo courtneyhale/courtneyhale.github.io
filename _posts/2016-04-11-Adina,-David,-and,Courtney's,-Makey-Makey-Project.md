@@ -86,6 +86,7 @@ While creating this project, we ourselves experienced everything we wanted our u
 **Addendum A:**
 
 **index.html:**
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -116,6 +117,7 @@ While creating this project, we ourselves experienced everything we wanted our u
 </html>
 
 **Sketch.js:**
+
 var myDrawing = new ArtDraw();
 
 setup = function () {
