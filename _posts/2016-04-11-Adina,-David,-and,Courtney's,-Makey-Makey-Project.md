@@ -1,6 +1,6 @@
 ---
 title: Adina, David, and Courtney's Makey Makey Project
-layout: Post
+layout: post
 ---
 
 **The Makey Makey Project**
