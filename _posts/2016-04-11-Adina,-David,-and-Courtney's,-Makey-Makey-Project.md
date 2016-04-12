@@ -2,7 +2,8 @@
 title: Adina, David, and Courtney's Makey Makey Project
 layout: Post
 ---
-The Makey Makey Project
+
+**The Makey Makey Project**
 
 Some Resources:
 [Original Makey Makey KickStarter campaign](https://www.kickstarter.com/projects/joylabz/makey-makey-an-invention-kit-for-everyone/description)
