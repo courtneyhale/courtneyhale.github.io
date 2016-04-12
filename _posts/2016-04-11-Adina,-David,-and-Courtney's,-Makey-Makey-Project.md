@@ -6,18 +6,21 @@ layout: Post
 **The Makey Makey Project**
 
 **Some Resources:**
+
 [Original Makey Makey KickStarter campaign](https://www.kickstarter.com/projects/joylabz/makey-makey-an-invention-kit-for-everyone/description)
 [Assistive Technology: What It Is and How It Works](https://www.understood.org/en/school-learning/assistive-technology/assistive-technologies-basics/assistive-technology-what-it-is-and-how-it-works)
 [Speculative Everything](https://slack-files.com/files-pri-safe/T0EUTAFBK-F0UJP679A/dunne_and_raby_-_from_speculative_everything.pdf?c=1460420735-33e8ebd3f4641e28ba60a48422901fc6bd91f2cc)
 [This Is the Easiest Way to Build Accessibility Tech for Kids with Disabilities]([http://makezine.com/2016/02/19/this-is-the-easiest-way-build-accessibility-tech-kids-disabilities/)
 
 **Assistive Technology Makey Makey**
+
 1. We decided to focus on only one disability in particular.  For this we have selected cerebral palsy.  
 2. Question: Can we use the Makey Makey to break an interface in such a way that a person who does not have cerebral palsy can attain some understanding of how traditional user interfaces are unusable for people lacking certain motor skills?
 3. Inspiration: a ["typewriter" artist:](https://www.youtube.com/watch?v=svzPm8lT36o). Paul Smith (since deceased) had cerebral palsy.  [Here is another website on him and his work:](http://www.cerebralpalsy.org/inspiration/artists/paul-smith)
 4. Finally, can we create an application (something very simple in P5) that would act as a kind of artistic typewriter whose interface and controls facilitated by Makey Makey would be usable by people lacking certain motor skills.
 
 **Goals:**
+
 **1. Use the Makey Makey to create an interface to allow users with cerebral palsy (referred to as UserA) to create art using technology in a more accessible way than is currently available.** 
 	While using the Makey Makey, we want UserA to engage with the technology in its limited format. The limited format of this technology enhances UserA’s ability to engage with the technology itself. We want UserA to be able to feel a sense of accomplishment and a discovery of new possibilities to engage with technology in a way that they were unable to previously. Finally, we want UserA to recognize that technology is more adaptable and capable of meeting their needs than the market that is producing them would have us believe. Through the example of the Makey Makey, we want to show users that there is technology already available that is inexpensive, easy to use, and highly adaptable.  We want to show users this inexpensive technology can be used to create assistive technology that is adaptable to numerous users with a variety of disorders across the spectrum.  We want UserA to create art using the interface (Addendum A) and to realize technology can be accessible for them.  
 **2. We want a user who does not have cerebral palsy (referred to as UserB) to use a broken interface to attain some understanding of how traditional user interfaces are unusable for people lacking certain motor skills.**
