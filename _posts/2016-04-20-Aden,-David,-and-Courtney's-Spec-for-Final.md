@@ -40,7 +40,7 @@ To have a dating communication application that obscures the visual image of the
 
 Resources -
 
-•	Minimum of 2 links, including Lauren McCarthy’s facial recognition coding demo: https://www.youtube.com/watch?v=1k3X4DLDHdc and https://github.com/auduno/clmtrackr 
+•	Minimum of 2 links, including Lauren McCarthy’s [facial recognition coding demo](https://www.youtube.com/watch?v=1k3X4DLDHdc and https://github.com/auduno/clmtrackr) 
 
 •	Minimum of 4 articles discussed in class
 
