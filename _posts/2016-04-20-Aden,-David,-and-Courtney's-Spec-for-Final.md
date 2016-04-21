@@ -26,7 +26,7 @@ To have a dating communication application that obscures the visual image of the
 
 **The Written Document:**
 
-The major sections of the document:
+**The major sections of the document:**
 
 •	Resources
 
@@ -36,7 +36,7 @@ The major sections of the document:
 
 •	Rationale
 
-The length of these sections:
+**The length of these sections:**
 
 Resources -
 
