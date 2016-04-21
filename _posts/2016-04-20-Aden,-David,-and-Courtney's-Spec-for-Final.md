@@ -44,17 +44,17 @@ Resources -
 
 •	Minimum of 4 articles discussed in class
 
-•	Goals - Minimum of 200 words each
+Goals - Minimum of 200 words each
 
-•	User “How to” guide - a list of extensive instructions detailing everything needed for the communication application as well as how to implement it
+User “How to” guide - a list of extensive instructions detailing everything needed for the communication application as well as how to implement it
 
-•	Rationale - a minimum of 1500 words
+Rationale - a minimum of 1500 words
 
-The purpose or effect of each section of this document:
+**The purpose or effect of each section of this document:**
 
-•	The “Resources” section will be used to inspire, educate, and instruct users on how to use obscured communication.  It will also show the theory behind our prototype.  
+The “Resources” section will be used to inspire, educate, and instruct users on how to use obscured communication.  It will also show the theory behind our prototype.  
 
-•	The “Goals” section will answer the following questions:
+The “Goals” section will answer the following questions:
 
 •	What do we want the user do?
 
@@ -62,9 +62,9 @@ The purpose or effect of each section of this document:
 
 •	What do we want the user think?
 
-•	The “User ‘How to’ Guide” section will outline exactly what we want the user to do, as well as what we want our prototype to do.  
+The “User ‘How to’ Guide” section will outline exactly what we want the user to do, as well as what we want our prototype to do.  
 
-•	The “Rationale” section will address the following topics and questions:
+The “Rationale” section will address the following topics and questions:
 
 •	Who are we designing this for?
 
